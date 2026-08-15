@@ -17,14 +17,22 @@
 
 <br/>
 
-<!-- Substitua YOUR-INSTANCE pela URL da sua instância Vercel (github-readme-stats self-hosted) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-INSTANCE.vercel.app/api?username=nicarlojunior&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+<<<<<<< HEAD
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-nu-ten-45.vercel.app/api?username=nicarlojunior&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats-nu-ten-45.vercel.app/api?username=nicarlojunior&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Nicarlo's GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-nu-ten-45.vercel.app/api/top-langs/?username=nicarlojunior&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <img width="49%" src="https://github-readme-stats-nu-ten-45.vercel.app/api/top-langs/?username=nicarlojunior&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+=======
+  <source media="(prefers-color-scheme: dark)" srcset="github-readme-stats-nu-ten-45.vercel.app/api?username=nicarlojunior&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" />
   <img width="49%" src="https://YOUR-INSTANCE.vercel.app/api?username=nicarlojunior&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0891B2&icon_color=7C3AED&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Nicarlo's GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=nicarlojunior&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
+  <source media="(prefers-color-scheme: dark)" srcset="github-readme-stats-nu-ten-45.vercel.app/api/top-langs/?username=nicarlojunior&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" />
   <img width="49%" src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=nicarlojunior&layout=compact&langs_count=8&hide_border=true&title_color=0891B2&text_color=0F172A&bg_color=FFFFFF&card_width=500" alt="Top languages" />
+>>>>>>> a8978234427dfd371e623743a1f0e22efbf077a6
 </picture>
 
 </div>
