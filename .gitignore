@@ -1,0 +1,6 @@
+banner_data/
+assets/portrait.png
+assets/logo_*_preview.png
+__pycache__/
+*.pyc
+.env

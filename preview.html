@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preview — Perfil GitHub nicarlojunior</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #0d1117; color: #c9d1d9; padding: 24px; }
+    h1 { font-size: 1.25rem; margin-bottom: 8px; color: #58a6ff; }
+    p { color: #8b949e; margin-bottom: 24px; font-size: 0.9rem; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+    .tab { padding: 8px 16px; border: 1px solid #30363d; border-radius: 6px; background: #161b22; color: #c9d1d9; cursor: pointer; font-size: 0.85rem; }
+    .tab.active { background: #21262d; border-color: #58a6ff; color: #58a6ff; }
+    .panel { display: none; }
+    .panel.active { display: block; }
+    .github-mock { max-width: 980px; margin: 0 auto; border: 1px solid #30363d; border-radius: 6px; overflow: hidden; background: #0d1117; }
+    .github-header { padding: 16px 24px; border-bottom: 1px solid #30363d; background: #161b22; font-size: 0.85rem; color: #8b949e; }
+    .github-header strong { color: #c9d1d9; }
+    .readme-body { padding: 32px 24px; text-align: center; }
+    .readme-body img, .readme-body object { max-width: 100%; height: auto; display: block; margin: 0 auto 16px; }
+    .stats-row { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
+    .stats-row img { width: 49%; min-width: 280px; }
+    .badge-row { margin-top: 16px; }
+    .badge-row img { display: inline-block; margin: 4px; }
+    .placeholder { background: #161b22; border: 1px dashed #30363d; border-radius: 8px; padding: 24px; color: #8b949e; font-size: 0.85rem; margin-bottom: 16px; }
+    .banner-only { max-width: 1180px; margin: 0 auto; border: 1px solid #30363d; border-radius: 8px; overflow: hidden; }
+    .banner-only object { width: 100%; display: block; }
+    .note { margin-top: 24px; padding: 12px 16px; background: #161b22; border-left: 3px solid #58a6ff; border-radius: 4px; font-size: 0.85rem; color: #8b949e; max-width: 980px; margin-left: auto; margin-right: auto; }
+  </style>
+</head>
+<body>
+  <h1>Preview do perfil GitHub</h1>
+  <p>Visualização local de <strong>nicarlojunior/nicarlojunior</strong> — abra este arquivo no navegador.</p>
+
+  <div class="tabs">
+    <button class="tab active" onclick="show('readme-dark')">README (dark)</button>
+    <button class="tab" onclick="show('readme-light')">README (light)</button>
+    <button class="tab" onclick="show('banner-dark')">Só banner dark</button>
+    <button class="tab" onclick="show('banner-light')">Só banner light</button>
+  </div>
+
+  <div id="readme-dark" class="panel active">
+    <div class="github-mock" style="background:#0d1117">
+      <div class="github-header"><strong>nicarlojunior</strong> / README.md</div>
+      <div class="readme-body">
+        <object data="dark.svg" type="image/svg+xml" width="100%"></object>
+        <img width="100%" src="https://streak-stats.demolab.com/?user=nicarlojunior&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="GitHub streak" style="margin-bottom:16px"/>
+        <div class="stats-row">
+          <div class="placeholder" style="width:49%;min-width:280px">Stats card — precisa da URL Vercel</div>
+          <div class="placeholder" style="width:49%;min-width:280px">Top langs — precisa da URL Vercel</div>
+        </div>
+        <div class="placeholder">Snake — aparece depois do GitHub Action rodar</div>
+        <div class="badge-row">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+          <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="readme-light" class="panel">
+    <div class="github-mock" style="background:#ffffff">
+      <div class="github-header" style="background:#f6f8fa;color:#57606a;border-color:#d0d7de"><strong style="color:#24292f">nicarlojunior</strong> / README.md</div>
+      <div class="readme-body" style="background:#ffffff">
+        <object data="light.svg" type="image/svg+xml" width="100%"></object>
+        <div class="placeholder" style="background:#f6f8fa;border-color:#d0d7de;color:#57606a">Streak card</div>
+        <div class="stats-row">
+          <div class="placeholder" style="width:49%;min-width:280px;background:#f6f8fa;border-color:#d0d7de;color:#57606a">Stats card</div>
+          <div class="placeholder" style="width:49%;min-width:280px;background:#f6f8fa;border-color:#d0d7de;color:#57606a">Top langs</div>
+        </div>
+        <div class="placeholder" style="background:#f6f8fa;border-color:#d0d7de;color:#57606a">Snake</div>
+        <div class="badge-row">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+          <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="banner-dark" class="panel">
+    <div class="banner-only">
+      <object data="dark.svg" type="image/svg+xml"></object>
+    </div>
+  </div>
+
+  <div id="banner-light" class="panel">
+    <div class="banner-only">
+      <object data="light.svg" type="image/svg+xml"></object>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>O banner anima localmente</strong> — abra <code>dark.svg</code> ou clique em "Só banner dark" e aguarde ~3s:
+    o retrato aparece, some, e os pontos formam <code>&lt;/&gt;</code> → Next.js → Node.js em loop.
+    <br><br>
+    <strong>Vercel é só para os cards de stats</strong> (Streak funciona online; Stats/Top langs precisam da URL).
+    A snake só aparece depois de publicar no GitHub e rodar o GitHub Action.
+  </div>
+
+  <script>
+    function show(id) {
+      document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
