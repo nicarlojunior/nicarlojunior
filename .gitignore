@@ -4,3 +4,5 @@ assets/logo_*_preview.png
 __pycache__/
 *.pyc
 .env
+merged.json
+out/

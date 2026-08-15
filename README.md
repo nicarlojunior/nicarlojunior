@@ -40,6 +40,17 @@
 
 </div>
 
+<!-- ===== PROJECTS LIST ===== -->
+<br/>
+<br/>
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nicarlojunior/nicarlojunior/projects/projects.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nicarlojunior/nicarlojunior/projects/projects-light.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/nicarlojunior/nicarlojunior/projects/projects.svg" alt="Projects" />
+</picture>
+</div>
+
 <!-- ===== SOCIAL BADGES ===== -->
 <br/>
 <div align="center">

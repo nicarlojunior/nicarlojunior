@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Pag Instagram",
+    "repo": "nicarlojunior/Pag_Instagram",
+    "description": "Página de login do Instagram",
+    "tags": ["HTML", "CSS"]
+  },
+  {
+    "name": "Netflix Project",
+    "repo": "nicarlojunior/netflix_project",
+    "description": "Clone da página da Netflix",
+    "tags": ["HTML", "CSS"]
+  },
+  {
+    "name": "Super Mario",
+    "repo": "nicarlojunior/Super_Mario",
+    "description": "Mini game inspirado no Super Mario",
+    "tags": ["HTML", "CSS"]
+  },
+  {
+    "name": "Snake Game",
+    "repo": "nicarlojunior/Snake-Game",
+    "description": "Jogo da cobrinha no navegador",
+    "tags": ["HTML", "CSS"]
+  },
+  {
+    "name": "Pokedex",
+    "repo": "nicarlojunior/Pokedex",
+    "description": "Pokédex consumindo API",
+    "tags": ["HTML", "CSS"]
+  },
+  {
+    "name": "Calculadora",
+    "repo": "nicarlojunior/calculadora-simples",
+    "description": "Calculadora simples em JavaScript",
+    "tags": ["JavaScript", "HTML", "CSS"]
+  }
+]
